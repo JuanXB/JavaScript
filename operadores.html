@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operadores</title>
+</head>
+
+<body>
+  <script>
+    let a = 1, b = 1;
+
+    let c = ++a; // 2
+    let d = b++; // 1
+
+    // alert(c);
+    // alert(d);
+
+    let y = 2;
+
+    let x = 1 + (y *= 2);
+
+    // y =  4
+    // x = 5
+
+    // alert(y);
+    // alert(x);
+
+
+    "" + 1 + 0 // 10
+    "" - 1 + 0 // -1
+    true + false // 1
+    6 / "3" // 2
+    "2" * "3" // 6
+    4 + 5 + "px" // 9px
+    "$" + 4 + 5 // $45
+    "4" - 2 // 2
+    "4px" - 2 //Nan
+    "  -9  " + 5 // -9 5
+    "  -9  " - 5 // -14
+    null + 1 // 1
+    undefined + 1 // Nan
+    " \t \n" - 2 // -2
+
+
+    let v = +prompt("¿Primer número?", 1);
+    let n = +prompt("¿Segundo número?", 2);
+
+    alert(v + n); 
+  </script>
+</body>
+
+</html>
